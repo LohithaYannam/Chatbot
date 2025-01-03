@@ -17,7 +17,7 @@ nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
 
 # Load intents from the JSON file
-file_path = r"C:\Users\HP\Downloads\intents.json"  # Use raw string for file path
+file_path = "intents.json"
 with open(file_path, "r", encoding="utf-8") as file:
     intents = json.load(file)
 
